@@ -13,32 +13,38 @@ struct MessagesView: View {
     
     var body: some View {
         //title
-        VStack {
-            HStack {
-                Text("Уведомления")
-                    .padding(.leading, 34)
-                    .font(.custom(FontManager.Nunito.bold, size: 32))
-                Spacer()
-            }
+        NavigationView {
             ScrollView(.vertical) {
                 VStack(spacing: 10) {
                     ForEach(messages, id: \.self) { messageText in
-                        Message(text: messageText)
-                            .padding(.horizontal, 34)
+                        HStack {
+                            Message(text: messageText)
+                                .padding(.top, 13)
+                                .navigationBarTitleDisplayMode(.inline)
+                                .toolbar {
+                                    ToolbarItem(placement: .principal) {
+                                        HStack {
+                                            Text("Уведомления")
+                                                .padding(.leading, 34)
+                                                .font(.custom(FontManager.Nunito.bold, size: 32))
+                                            Spacer()
+                                        }
+                                    }
+                                    
+                                }
+                        }
+                        .padding(.horizontal, 34)
                     }
                 }
             }
-            
         }
-       
-        
     }
 }
 
 
+
 // Create message item
-struct Message: View, Identifiable {
-    var id = UUID()
+struct Message: View {
     var text: String
     
     var body: some View {
