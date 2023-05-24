@@ -15,8 +15,6 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
                 .customFont(font: FontManager.Nunito.black, size: 20)
-            Text("Hello, world!")
-                .customFont(font: FontManager.Nunito.black, size: 20)
         }
         .padding()
     }
