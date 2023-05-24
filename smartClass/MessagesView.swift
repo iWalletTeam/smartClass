@@ -20,6 +20,7 @@ struct Message: View {
         HStack {
             Rectangle()
                 .frame(width: 322, height: 80)
+                .backgroundStyle(.gray)
         }
     }
 }
