@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7DEB87822A1FD08C00872D9A /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB87812A1FD08C00872D9A /* Registration.swift */; };
+		7DEB87842A1FDC9F00872D9A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB87832A1FDC9F00872D9A /* SwiftUIView.swift */; };
 		A8700DF32A1DDAD500D60253 /* smartClassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700DF22A1DDAD500D60253 /* smartClassApp.swift */; };
 		A8700DF52A1DDAD500D60253 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700DF42A1DDAD500D60253 /* ContentView.swift */; };
 		A8700DF72A1DDAD600D60253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8700DF62A1DDAD600D60253 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		7DEB87812A1FD08C00872D9A /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		7DEB87832A1FDC9F00872D9A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		A8700DEF2A1DDAD500D60253 /* smartClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8700DF22A1DDAD500D60253 /* smartClassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartClassApp.swift; sourceTree = "<group>"; };
 		A8700DF42A1DDAD500D60253 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				A8700DF22A1DDAD500D60253 /* smartClassApp.swift */,
 				A8700DF42A1DDAD500D60253 /* ContentView.swift */,
 				7DEB87812A1FD08C00872D9A /* Registration.swift */,
+				7DEB87832A1FDC9F00872D9A /* SwiftUIView.swift */,
 				A8700DF62A1DDAD600D60253 /* Assets.xcassets */,
 				A8700DF82A1DDAD600D60253 /* Preview Content */,
 			);
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8700DF52A1DDAD500D60253 /* ContentView.swift in Sources */,
+				7DEB87842A1FDC9F00872D9A /* SwiftUIView.swift in Sources */,
 				A8700E082A1DDC6100D60253 /* CustomFont.swift in Sources */,
 				A8700E052A1DDC2A00D60253 /* FontManager.swift in Sources */,
 				A8700DF32A1DDAD500D60253 /* smartClassApp.swift in Sources */,
