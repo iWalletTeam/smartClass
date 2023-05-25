@@ -15,6 +15,7 @@
 		A8700E052A1DDC2A00D60253 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E042A1DDC2A00D60253 /* FontManager.swift */; };
 		A8700E082A1DDC6100D60253 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E072A1DDC6100D60253 /* CustomFont.swift */; };
 		A8700E0B2A1DDCAD00D60253 /* View.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E0A2A1DDCAD00D60253 /* View.ext.swift */; };
+		BEA6EBD32A1FC3C000F28AE1 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6EBD22A1FC3C000F28AE1 /* TimetableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A8700E042A1DDC2A00D60253 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		A8700E072A1DDC6100D60253 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		A8700E0A2A1DDCAD00D60253 /* View.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.ext.swift; sourceTree = "<group>"; };
+		BEA6EBD22A1FC3C000F28AE1 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		A8700DF12A1DDAD500D60253 /* smartClass */ = {
 			isa = PBXGroup;
 			children = (
+				BEA6EBD12A1FC3AA00F28AE1 /* Timetable */,
 				A8700E092A1DDC9D00D60253 /* Extension */,
 				A8700E062A1DDC4900D60253 /* Modifiers */,
 				A8700E032A1DDBFC00D60253 /* Info.plist */,
@@ -103,6 +106,14 @@
 				A8700E0A2A1DDCAD00D60253 /* View.ext.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		BEA6EBD12A1FC3AA00F28AE1 /* Timetable */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6EBD22A1FC3C000F28AE1 /* TimetableView.swift */,
+			);
+			path = Timetable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 				A8700E082A1DDC6100D60253 /* CustomFont.swift in Sources */,
 				A8700E052A1DDC2A00D60253 /* FontManager.swift in Sources */,
 				A8700DF32A1DDAD500D60253 /* smartClassApp.swift in Sources */,
+				BEA6EBD32A1FC3C000F28AE1 /* TimetableView.swift in Sources */,
 				A8700E0B2A1DDCAD00D60253 /* View.ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
