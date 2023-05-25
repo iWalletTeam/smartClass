@@ -48,6 +48,8 @@ struct TimetableView: View {
                     .foregroundColor(Color("ClassLightGrayColor"))
                     .padding(.leading, 20)
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+                TimetableCard()
+                    .padding(EdgeInsets(top: 0, leading: 21, bottom: 23, trailing: 21))
             }
         }
     }
