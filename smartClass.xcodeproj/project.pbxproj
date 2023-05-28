@@ -16,6 +16,8 @@
 		A8700E082A1DDC6100D60253 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E072A1DDC6100D60253 /* CustomFont.swift */; };
 		A8700E0B2A1DDCAD00D60253 /* View.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E0A2A1DDCAD00D60253 /* View.ext.swift */; };
 		DD02EE4C2A1E6CB200CB7DC0 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD02EE4B2A1E6CB200CB7DC0 /* MessagesView.swift */; };
+		DD7425352A226A6600B9CD5A /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7425342A226A6600B9CD5A /* MessageModel.swift */; };
+		DD8607C22A211BE10098B629 /* MessageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8607C12A211BE10098B629 /* MessageItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		A8700E072A1DDC6100D60253 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		A8700E0A2A1DDCAD00D60253 /* View.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.ext.swift; sourceTree = "<group>"; };
 		DD02EE4B2A1E6CB200CB7DC0 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		DD7425342A226A6600B9CD5A /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		DD8607C12A211BE10098B629 /* MessageItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,7 @@
 				A8700E002A1DDB6B00D60253 /* Fonts */,
 				A8700DF22A1DDAD500D60253 /* smartClassApp.swift */,
 				A8700DF42A1DDAD500D60253 /* ContentView.swift */,
-				DD02EE4B2A1E6CB200CB7DC0 /* MessagesView.swift */,
+				DD8607C02A211BA20098B629 /* messengers */,
 				A8700DF62A1DDAD600D60253 /* Assets.xcassets */,
 				A8700DF82A1DDAD600D60253 /* Preview Content */,
 			);
@@ -106,6 +110,16 @@
 				A8700E0A2A1DDCAD00D60253 /* View.ext.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		DD8607C02A211BA20098B629 /* messengers */ = {
+			isa = PBXGroup;
+			children = (
+				DD02EE4B2A1E6CB200CB7DC0 /* MessagesView.swift */,
+				DD8607C12A211BE10098B629 /* MessageItemView.swift */,
+				DD7425342A226A6600B9CD5A /* MessageModel.swift */,
+			);
+			path = messengers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +196,9 @@
 				A8700DF52A1DDAD500D60253 /* ContentView.swift in Sources */,
 				A8700E082A1DDC6100D60253 /* CustomFont.swift in Sources */,
 				DD02EE4C2A1E6CB200CB7DC0 /* MessagesView.swift in Sources */,
+				DD7425352A226A6600B9CD5A /* MessageModel.swift in Sources */,
 				A8700E052A1DDC2A00D60253 /* FontManager.swift in Sources */,
+				DD8607C22A211BE10098B629 /* MessageItemView.swift in Sources */,
 				A8700DF32A1DDAD500D60253 /* smartClassApp.swift in Sources */,
 				A8700E0B2A1DDCAD00D60253 /* View.ext.swift in Sources */,
 			);
