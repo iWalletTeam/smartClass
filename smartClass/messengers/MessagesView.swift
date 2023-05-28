@@ -24,7 +24,7 @@ struct MessagesView: View {
                     }
                 } header: {
                     HStack {
-                        Text("Рассилка")
+                        Text("Рассылка")
                             .font(.custom(FontManager.Nunito.bold, size: 16))
                             .foregroundColor(sectionColor)
                         Spacer()
