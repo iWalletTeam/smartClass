@@ -15,6 +15,7 @@
 		A8700E052A1DDC2A00D60253 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E042A1DDC2A00D60253 /* FontManager.swift */; };
 		A8700E082A1DDC6100D60253 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E072A1DDC6100D60253 /* CustomFont.swift */; };
 		A8700E0B2A1DDCAD00D60253 /* View.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E0A2A1DDCAD00D60253 /* View.ext.swift */; };
+		BE3B01C32A23CBEC008C1073 /* TimetableCardFull.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3B01C22A23CBEC008C1073 /* TimetableCardFull.swift */; };
 		BEA6EBD32A1FC3C000F28AE1 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6EBD22A1FC3C000F28AE1 /* TimetableView.swift */; };
 		BEA6EBD52A1FC46400F28AE1 /* TimetableCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6EBD42A1FC46400F28AE1 /* TimetableCard.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		A8700E042A1DDC2A00D60253 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		A8700E072A1DDC6100D60253 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		A8700E0A2A1DDCAD00D60253 /* View.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.ext.swift; sourceTree = "<group>"; };
+		BE3B01C22A23CBEC008C1073 /* TimetableCardFull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableCardFull.swift; sourceTree = "<group>"; };
 		BEA6EBD22A1FC3C000F28AE1 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
 		BEA6EBD42A1FC46400F28AE1 /* TimetableCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +117,7 @@
 			children = (
 				BEA6EBD22A1FC3C000F28AE1 /* TimetableView.swift */,
 				BEA6EBD42A1FC46400F28AE1 /* TimetableCard.swift */,
+				BE3B01C22A23CBEC008C1073 /* TimetableCardFull.swift */,
 			);
 			path = Timetable;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				A8700DF32A1DDAD500D60253 /* smartClassApp.swift in Sources */,
 				BEA6EBD52A1FC46400F28AE1 /* TimetableCard.swift in Sources */,
 				BEA6EBD32A1FC3C000F28AE1 /* TimetableView.swift in Sources */,
+				BE3B01C32A23CBEC008C1073 /* TimetableCardFull.swift in Sources */,
 				A8700E0B2A1DDCAD00D60253 /* View.ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
