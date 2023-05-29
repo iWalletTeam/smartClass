@@ -63,7 +63,7 @@ struct TapBarItemView: View {
             }
         }
         .padding()
-        .background(Colors.buttonTabBG)
+        .background(selected.text == tab.text ? Colors.buttonTabBG : .white)
         .clipShape(Capsule())
     }
 }
