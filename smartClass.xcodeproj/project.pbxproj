@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D81D5DA2A227FB2002869F7 /* Logon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D81D5D92A227FB2002869F7 /* Logon.swift */; };
-		7D81D5DD2A228004002869F7 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D81D5DC2A228004002869F7 /* TextFieldView.swift */; };
-		7D81D5DF2A2359A4002869F7 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D81D5DE2A2359A4002869F7 /* Greeting.swift */; };
-		7DEB87822A1FD08C00872D9A /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB87812A1FD08C00872D9A /* Registration.swift */; };
-		7DF024D52A238CCC00EB5D12 /* GreetingTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF024D42A238CCC00EB5D12 /* GreetingTwo.swift */; };
 		A8700DF32A1DDAD500D60253 /* smartClassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700DF22A1DDAD500D60253 /* smartClassApp.swift */; };
 		A8700DF52A1DDAD500D60253 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700DF42A1DDAD500D60253 /* ContentView.swift */; };
 		A8700DF72A1DDAD600D60253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8700DF62A1DDAD600D60253 /* Assets.xcassets */; };
@@ -23,11 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7D81D5D92A227FB2002869F7 /* Logon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logon.swift; sourceTree = "<group>"; };
-		7D81D5DC2A228004002869F7 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
-		7D81D5DE2A2359A4002869F7 /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
-		7DEB87812A1FD08C00872D9A /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
-		7DF024D42A238CCC00EB5D12 /* GreetingTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingTwo.swift; sourceTree = "<group>"; };
 		A8700DEF2A1DDAD500D60253 /* smartClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8700DF22A1DDAD500D60253 /* smartClassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartClassApp.swift; sourceTree = "<group>"; };
 		A8700DF42A1DDAD500D60253 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,21 +41,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7D81D5DB2A227FD6002869F7 /* Element */ = {
-			isa = PBXGroup;
-			children = (
-				7D81D5DC2A228004002869F7 /* TextFieldView.swift */,
-			);
-			path = Element;
-			sourceTree = "<group>";
-		};
-		7DEB87872A1FE09500872D9A /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		A8700DE62A1DDAD500D60253 = {
 			isa = PBXGroup;
 			children = (
@@ -85,18 +60,12 @@
 		A8700DF12A1DDAD500D60253 /* smartClass */ = {
 			isa = PBXGroup;
 			children = (
-				7D81D5DB2A227FD6002869F7 /* Element */,
 				A8700E092A1DDC9D00D60253 /* Extension */,
 				A8700E062A1DDC4900D60253 /* Modifiers */,
 				A8700E032A1DDBFC00D60253 /* Info.plist */,
 				A8700E002A1DDB6B00D60253 /* Fonts */,
 				A8700DF22A1DDAD500D60253 /* smartClassApp.swift */,
 				A8700DF42A1DDAD500D60253 /* ContentView.swift */,
-				7D81D5DE2A2359A4002869F7 /* Greeting.swift */,
-				7DF024D42A238CCC00EB5D12 /* GreetingTwo.swift */,
-				7D81D5D92A227FB2002869F7 /* Logon.swift */,
-				7DEB87812A1FD08C00872D9A /* Registration.swift */,
-				7DEB87872A1FE09500872D9A /* New Group */,
 				A8700DF62A1DDAD600D60253 /* Assets.xcassets */,
 				A8700DF82A1DDAD600D60253 /* Preview Content */,
 			);
@@ -209,13 +178,8 @@
 			files = (
 				A8700DF52A1DDAD500D60253 /* ContentView.swift in Sources */,
 				A8700E082A1DDC6100D60253 /* CustomFont.swift in Sources */,
-				7D81D5DD2A228004002869F7 /* TextFieldView.swift in Sources */,
-				7DF024D52A238CCC00EB5D12 /* GreetingTwo.swift in Sources */,
-				7D81D5DA2A227FB2002869F7 /* Logon.swift in Sources */,
 				A8700E052A1DDC2A00D60253 /* FontManager.swift in Sources */,
 				A8700DF32A1DDAD500D60253 /* smartClassApp.swift in Sources */,
-				7D81D5DF2A2359A4002869F7 /* Greeting.swift in Sources */,
-				7DEB87822A1FD08C00872D9A /* Registration.swift in Sources */,
 				A8700E0B2A1DDCAD00D60253 /* View.ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,7 +318,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,7 +352,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
