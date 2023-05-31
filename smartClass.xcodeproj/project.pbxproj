@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D81D5DA2A227FB2002869F7 /* Logon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D81D5D92A227FB2002869F7 /* Logon.swift */; };
 		7D81D5DD2A228004002869F7 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D81D5DC2A228004002869F7 /* TextFieldView.swift */; };
-		7D81D5DF2A2359A4002869F7 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D81D5DE2A2359A4002869F7 /* Greeting.swift */; };
-		7DEB87822A1FD08C00872D9A /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB87812A1FD08C00872D9A /* Registration.swift */; };
-		7DF024D52A238CCC00EB5D12 /* GreetingTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF024D42A238CCC00EB5D12 /* GreetingTwo.swift */; };
+		7DB588972A27BB8500353D6F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB588962A27BB8500353D6F /* TextView.swift */; };
+		7DB588992A27BB9500353D6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB588982A27BB9500353D6F /* ContentView.swift */; };
+		7DB5889B2A27BBD200353D6F /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5889A2A27BBD200353D6F /* Greeting.swift */; };
+		7DB5889D2A27BBDE00353D6F /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5889C2A27BBDE00353D6F /* Greeting.swift */; };
+		7DB5889F2A27BC5500353D6F /* GreetingTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB5889E2A27BC5500353D6F /* GreetingTwo.swift */; };
+		7DB588A12A27BC5D00353D6F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB588A02A27BC5D00353D6F /* LoginView.swift */; };
+		7DB588A32A27BC6400353D6F /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB588A22A27BC6400353D6F /* Registration.swift */; };
+		7DB588A52A27BC6D00353D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB588A42A27BC6D00353D6F /* Assets.xcassets */; };
+		7DB588A72A27BCB800353D6F /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB588A62A27BCB800353D6F /* Registration.swift */; };
 		A8700DF32A1DDAD500D60253 /* smartClassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700DF22A1DDAD500D60253 /* smartClassApp.swift */; };
-		A8700DF52A1DDAD500D60253 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700DF42A1DDAD500D60253 /* ContentView.swift */; };
-		A8700DF72A1DDAD600D60253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8700DF62A1DDAD600D60253 /* Assets.xcassets */; };
 		A8700DFA2A1DDAD600D60253 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8700DF92A1DDAD600D60253 /* Preview Assets.xcassets */; };
 		A8700E022A1DDBD400D60253 /* Nunito-VariableFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8700E012A1DDBD400D60253 /* Nunito-VariableFont.ttf */; };
 		A8700E052A1DDC2A00D60253 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E042A1DDC2A00D60253 /* FontManager.swift */; };
@@ -23,15 +26,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7D81D5D92A227FB2002869F7 /* Logon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logon.swift; sourceTree = "<group>"; };
 		7D81D5DC2A228004002869F7 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
-		7D81D5DE2A2359A4002869F7 /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
-		7DEB87812A1FD08C00872D9A /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
-		7DF024D42A238CCC00EB5D12 /* GreetingTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingTwo.swift; sourceTree = "<group>"; };
+		7DB588962A27BB8500353D6F /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = ../../../111/smartClass/smartClass/Element/TextView.swift; sourceTree = "<group>"; };
+		7DB588982A27BB9500353D6F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../111/smartClass/smartClass/ContentView.swift; sourceTree = "<group>"; };
+		7DB5889A2A27BBD200353D6F /* Greeting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Greeting.swift; path = ../../../111/smartClass/smartClass/Greeting.swift; sourceTree = "<group>"; };
+		7DB5889C2A27BBDE00353D6F /* Greeting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Greeting.swift; path = ../../111/smartClass/smartClass/Greeting.swift; sourceTree = "<group>"; };
+		7DB5889E2A27BC5500353D6F /* GreetingTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GreetingTwo.swift; path = ../../111/smartClass/smartClass/GreetingTwo.swift; sourceTree = "<group>"; };
+		7DB588A02A27BC5D00353D6F /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../111/smartClass/smartClass/LoginView.swift; sourceTree = "<group>"; };
+		7DB588A22A27BC6400353D6F /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Registration.swift; path = ../../../111/smartClass/smartClass/Registration.swift; sourceTree = "<group>"; };
+		7DB588A42A27BC6D00353D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../111/smartClass/smartClass/Assets.xcassets; sourceTree = "<group>"; };
+		7DB588A62A27BCB800353D6F /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Registration.swift; path = ../../111/smartClass/smartClass/Registration.swift; sourceTree = "<group>"; };
 		A8700DEF2A1DDAD500D60253 /* smartClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8700DF22A1DDAD500D60253 /* smartClassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartClassApp.swift; sourceTree = "<group>"; };
-		A8700DF42A1DDAD500D60253 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A8700DF62A1DDAD600D60253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8700DF92A1DDAD600D60253 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8700E012A1DDBD400D60253 /* Nunito-VariableFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-VariableFont.ttf"; sourceTree = "<group>"; };
 		A8700E032A1DDBFC00D60253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -55,15 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				7D81D5DC2A228004002869F7 /* TextFieldView.swift */,
+				7DB588962A27BB8500353D6F /* TextView.swift */,
 			);
 			path = Element;
-			sourceTree = "<group>";
-		};
-		7DEB87872A1FE09500872D9A /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		A8700DE62A1DDAD500D60253 = {
@@ -91,13 +91,12 @@
 				A8700E032A1DDBFC00D60253 /* Info.plist */,
 				A8700E002A1DDB6B00D60253 /* Fonts */,
 				A8700DF22A1DDAD500D60253 /* smartClassApp.swift */,
-				A8700DF42A1DDAD500D60253 /* ContentView.swift */,
-				7D81D5DE2A2359A4002869F7 /* Greeting.swift */,
-				7DF024D42A238CCC00EB5D12 /* GreetingTwo.swift */,
-				7D81D5D92A227FB2002869F7 /* Logon.swift */,
-				7DEB87812A1FD08C00872D9A /* Registration.swift */,
-				7DEB87872A1FE09500872D9A /* New Group */,
-				A8700DF62A1DDAD600D60253 /* Assets.xcassets */,
+				7DB588982A27BB9500353D6F /* ContentView.swift */,
+				7DB5889C2A27BBDE00353D6F /* Greeting.swift */,
+				7DB5889E2A27BC5500353D6F /* GreetingTwo.swift */,
+				7DB588A02A27BC5D00353D6F /* LoginView.swift */,
+				7DB588A62A27BCB800353D6F /* Registration.swift */,
+				7DB588A42A27BC6D00353D6F /* Assets.xcassets */,
 				A8700DF82A1DDAD600D60253 /* Preview Content */,
 			);
 			path = smartClass;
@@ -106,6 +105,8 @@
 		A8700DF82A1DDAD600D60253 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				7DB588A22A27BC6400353D6F /* Registration.swift */,
+				7DB5889A2A27BBD200353D6F /* Greeting.swift */,
 				A8700DF92A1DDAD600D60253 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -195,8 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8700DFA2A1DDAD600D60253 /* Preview Assets.xcassets in Resources */,
+				7DB588A52A27BC6D00353D6F /* Assets.xcassets in Resources */,
 				A8700E022A1DDBD400D60253 /* Nunito-VariableFont.ttf in Resources */,
-				A8700DF72A1DDAD600D60253 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,15 +208,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8700DF52A1DDAD500D60253 /* ContentView.swift in Sources */,
+				7DB5889D2A27BBDE00353D6F /* Greeting.swift in Sources */,
+				7DB588972A27BB8500353D6F /* TextView.swift in Sources */,
+				7DB588992A27BB9500353D6F /* ContentView.swift in Sources */,
+				7DB5889F2A27BC5500353D6F /* GreetingTwo.swift in Sources */,
+				7DB588A32A27BC6400353D6F /* Registration.swift in Sources */,
 				A8700E082A1DDC6100D60253 /* CustomFont.swift in Sources */,
+				7DB588A72A27BCB800353D6F /* Registration.swift in Sources */,
 				7D81D5DD2A228004002869F7 /* TextFieldView.swift in Sources */,
-				7DF024D52A238CCC00EB5D12 /* GreetingTwo.swift in Sources */,
-				7D81D5DA2A227FB2002869F7 /* Logon.swift in Sources */,
 				A8700E052A1DDC2A00D60253 /* FontManager.swift in Sources */,
 				A8700DF32A1DDAD500D60253 /* smartClassApp.swift in Sources */,
-				7D81D5DF2A2359A4002869F7 /* Greeting.swift in Sources */,
-				7DEB87822A1FD08C00872D9A /* Registration.swift in Sources */,
+				7DB588A12A27BC5D00353D6F /* LoginView.swift in Sources */,
+				7DB5889B2A27BBD200353D6F /* Greeting.swift in Sources */,
 				A8700E0B2A1DDCAD00D60253 /* View.ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
