@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A534D8942A28EE0600C9E53C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534D8932A28EE0600C9E53C /* Profile.swift */; };
+		A534D8962A28EE3900C9E53C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534D8952A28EE3900C9E53C /* SettingViewController.swift */; };
+		A534D8982A28EE5200C9E53C /* SettingTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534D8972A28EE5200C9E53C /* SettingTextFieldView.swift */; };
+		A534D89A2A28EE6800C9E53C /* EntryButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534D8992A28EE6800C9E53C /* EntryButtonView.swift */; };
+		A534D89C2A28EE8000C9E53C /* LessonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534D89B2A28EE8000C9E53C /* LessonsView.swift */; };
 		A8700DF32A1DDAD500D60253 /* smartClassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700DF22A1DDAD500D60253 /* smartClassApp.swift */; };
 		A8700DF52A1DDAD500D60253 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700DF42A1DDAD500D60253 /* ContentView.swift */; };
 		A8700DF72A1DDAD600D60253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8700DF62A1DDAD600D60253 /* Assets.xcassets */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A534D8932A28EE0600C9E53C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A534D8952A28EE3900C9E53C /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		A534D8972A28EE5200C9E53C /* SettingTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTextFieldView.swift; sourceTree = "<group>"; };
+		A534D8992A28EE6800C9E53C /* EntryButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryButtonView.swift; sourceTree = "<group>"; };
+		A534D89B2A28EE8000C9E53C /* LessonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsView.swift; sourceTree = "<group>"; };
 		A8700DEF2A1DDAD500D60253 /* smartClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8700DF22A1DDAD500D60253 /* smartClassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartClassApp.swift; sourceTree = "<group>"; };
 		A8700DF42A1DDAD500D60253 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +76,11 @@
 				A8700E002A1DDB6B00D60253 /* Fonts */,
 				A8700DF22A1DDAD500D60253 /* smartClassApp.swift */,
 				A8700DF42A1DDAD500D60253 /* ContentView.swift */,
+				A534D8932A28EE0600C9E53C /* Profile.swift */,
+				A534D8952A28EE3900C9E53C /* SettingViewController.swift */,
+				A534D8972A28EE5200C9E53C /* SettingTextFieldView.swift */,
+				A534D8992A28EE6800C9E53C /* EntryButtonView.swift */,
+				A534D89B2A28EE8000C9E53C /* LessonsView.swift */,
 				A8700DF62A1DDAD600D60253 /* Assets.xcassets */,
 				A8700DF82A1DDAD600D60253 /* Preview Content */,
 			);
@@ -177,10 +192,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8700DF52A1DDAD500D60253 /* ContentView.swift in Sources */,
+				A534D8942A28EE0600C9E53C /* Profile.swift in Sources */,
+				A534D89C2A28EE8000C9E53C /* LessonsView.swift in Sources */,
 				A8700E082A1DDC6100D60253 /* CustomFont.swift in Sources */,
+				A534D89A2A28EE6800C9E53C /* EntryButtonView.swift in Sources */,
 				A8700E052A1DDC2A00D60253 /* FontManager.swift in Sources */,
 				A8700DF32A1DDAD500D60253 /* smartClassApp.swift in Sources */,
+				A534D8962A28EE3900C9E53C /* SettingViewController.swift in Sources */,
 				A8700E0B2A1DDCAD00D60253 /* View.ext.swift in Sources */,
+				A534D8982A28EE5200C9E53C /* SettingTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
