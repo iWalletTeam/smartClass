@@ -15,6 +15,10 @@
 		A8700E052A1DDC2A00D60253 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E042A1DDC2A00D60253 /* FontManager.swift */; };
 		A8700E082A1DDC6100D60253 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E072A1DDC6100D60253 /* CustomFont.swift */; };
 		A8700E0B2A1DDCAD00D60253 /* View.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E0A2A1DDCAD00D60253 /* View.ext.swift */; };
+		A8700E272A24B71500D60253 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E262A24B71500D60253 /* CalendarView.swift */; };
+		A8700E292A24B96500D60253 /* Date.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E282A24B96500D60253 /* Date.ext.swift */; };
+		A8700E2B2A24BA2100D60253 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E2A2A24BA2100D60253 /* CalendarViewModel.swift */; };
+		A8700E2D2A24BBA900D60253 /* Color.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E2C2A24BBA900D60253 /* Color.ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		A8700E042A1DDC2A00D60253 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		A8700E072A1DDC6100D60253 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		A8700E0A2A1DDCAD00D60253 /* View.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.ext.swift; sourceTree = "<group>"; };
+		A8700E262A24B71500D60253 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A8700E282A24B96500D60253 /* Date.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.ext.swift; sourceTree = "<group>"; };
+		A8700E2A2A24BA2100D60253 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		A8700E2C2A24BBA900D60253 /* Color.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.ext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +73,9 @@
 				A8700E032A1DDBFC00D60253 /* Info.plist */,
 				A8700E002A1DDB6B00D60253 /* Fonts */,
 				A8700DF22A1DDAD500D60253 /* smartClassApp.swift */,
+				A8700E2A2A24BA2100D60253 /* CalendarViewModel.swift */,
 				A8700DF42A1DDAD500D60253 /* ContentView.swift */,
+				A8700E262A24B71500D60253 /* CalendarView.swift */,
 				A8700DF62A1DDAD600D60253 /* Assets.xcassets */,
 				A8700DF82A1DDAD600D60253 /* Preview Content */,
 			);
@@ -101,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				A8700E0A2A1DDCAD00D60253 /* View.ext.swift */,
+				A8700E282A24B96500D60253 /* Date.ext.swift */,
+				A8700E2C2A24BBA900D60253 /* Color.ext.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -176,10 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8700E2B2A24BA2100D60253 /* CalendarViewModel.swift in Sources */,
 				A8700DF52A1DDAD500D60253 /* ContentView.swift in Sources */,
 				A8700E082A1DDC6100D60253 /* CustomFont.swift in Sources */,
+				A8700E272A24B71500D60253 /* CalendarView.swift in Sources */,
 				A8700E052A1DDC2A00D60253 /* FontManager.swift in Sources */,
+				A8700E292A24B96500D60253 /* Date.ext.swift in Sources */,
 				A8700DF32A1DDAD500D60253 /* smartClassApp.swift in Sources */,
+				A8700E2D2A24BBA900D60253 /* Color.ext.swift in Sources */,
 				A8700E0B2A1DDCAD00D60253 /* View.ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
