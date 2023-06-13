@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct smartClassApp: App {
+    
+    @ObservedObject var appViewModel = AppViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if appViewModel.isLogin{
+                StudentAppView()
+            } else {
+                GreetingView()
+                    .environmentObject(appViewModel)
+            }
+            
         }
     }
 }
