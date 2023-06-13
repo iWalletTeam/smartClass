@@ -15,6 +15,31 @@
 		A8700E052A1DDC2A00D60253 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E042A1DDC2A00D60253 /* FontManager.swift */; };
 		A8700E082A1DDC6100D60253 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E072A1DDC6100D60253 /* CustomFont.swift */; };
 		A8700E0B2A1DDCAD00D60253 /* View.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8700E0A2A1DDCAD00D60253 /* View.ext.swift */; };
+		A8CE4D922A2B76B600CF698A /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4D912A2B76B600CF698A /* GreetingView.swift */; };
+		A8CE4D942A2B76DA00CF698A /* GreetingTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4D932A2B76DA00CF698A /* GreetingTwoView.swift */; };
+		A8CE4D962A2B76FB00CF698A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4D952A2B76FB00CF698A /* LoginView.swift */; };
+		A8CE4D992A2B773F00CF698A /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4D982A2B773F00CF698A /* TextFieldView.swift */; };
+		A8CE4D9B2A2B77BB00CF698A /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4D9A2A2B77BB00CF698A /* RegistrationView.swift */; };
+		A8CE4D9F2A2B78D000CF698A /* StudentAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4D9E2A2B78D000CF698A /* StudentAppView.swift */; };
+		A8CE4DA22A2B7E5B00CF698A /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DA12A2B7E5B00CF698A /* TabBarModel.swift */; };
+		A8CE4DA52A2B7EB800CF698A /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DA42A2B7EB800CF698A /* Icons.swift */; };
+		A8CE4DA72A2B7FDA00CF698A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DA62A2B7FDA00CF698A /* Colors.swift */; };
+		A8CE4DAA2A2CCC7100CF698A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DA92A2CCC7100CF698A /* ProfileView.swift */; };
+		A8CE4DAC2A2CCD1100CF698A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DAB2A2CCD1100CF698A /* SettingView.swift */; };
+		A8CE4DAE2A2CCD9E00CF698A /* SettingTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DAD2A2CCD9E00CF698A /* SettingTextFieldView.swift */; };
+		A8CE4DB12A2CCDF600CF698A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DB02A2CCDF600CF698A /* ButtonView.swift */; };
+		A8CE4DB32A2CCE3700CF698A /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DB22A2CCE3700CF698A /* LessonView.swift */; };
+		A8CE4DB62A2DCF3A00CF698A /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DB52A2DCF3A00CF698A /* MessagesView.swift */; };
+		A8CE4DB82A2DCF5700CF698A /* MessageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DB72A2DCF5700CF698A /* MessageItemView.swift */; };
+		A8CE4DBC2A2DCF9000CF698A /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DBB2A2DCF9000CF698A /* MessageModel.swift */; };
+		A8CE4DC12A2DD1AB00CF698A /* CalendarTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DC02A2DD1AB00CF698A /* CalendarTabView.swift */; };
+		A8CE4DC32A2DD1D500CF698A /* TimetableCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DC22A2DD1D500CF698A /* TimetableCard.swift */; };
+		A8CE4DC52A2DD1ED00CF698A /* TimetableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DC42A2DD1ED00CF698A /* TimetableCardView.swift */; };
+		A8CE4DC82A2DD76100CF698A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DC72A2DD76100CF698A /* CalendarView.swift */; };
+		A8CE4DCA2A2DD79400CF698A /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DC92A2DD79400CF698A /* CalendarViewModel.swift */; };
+		A8CE4DCC2A2DD80400CF698A /* Date.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DCB2A2DD80300CF698A /* Date.ext.swift */; };
+		A8CE4DCF2A2DD85E00CF698A /* Color.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DCE2A2DD85E00CF698A /* Color.ext.swift */; };
+		A8CE4DD12A2DDFE900CF698A /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE4DD02A2DDFE900CF698A /* AppViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +53,31 @@
 		A8700E042A1DDC2A00D60253 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		A8700E072A1DDC6100D60253 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		A8700E0A2A1DDCAD00D60253 /* View.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.ext.swift; sourceTree = "<group>"; };
+		A8CE4D912A2B76B600CF698A /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		A8CE4D932A2B76DA00CF698A /* GreetingTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingTwoView.swift; sourceTree = "<group>"; };
+		A8CE4D952A2B76FB00CF698A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A8CE4D982A2B773F00CF698A /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		A8CE4D9A2A2B77BB00CF698A /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		A8CE4D9E2A2B78D000CF698A /* StudentAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAppView.swift; sourceTree = "<group>"; };
+		A8CE4DA12A2B7E5B00CF698A /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
+		A8CE4DA42A2B7EB800CF698A /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		A8CE4DA62A2B7FDA00CF698A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A8CE4DA92A2CCC7100CF698A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A8CE4DAB2A2CCD1100CF698A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		A8CE4DAD2A2CCD9E00CF698A /* SettingTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTextFieldView.swift; sourceTree = "<group>"; };
+		A8CE4DB02A2CCDF600CF698A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		A8CE4DB22A2CCE3700CF698A /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		A8CE4DB52A2DCF3A00CF698A /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		A8CE4DB72A2DCF5700CF698A /* MessageItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageItemView.swift; sourceTree = "<group>"; };
+		A8CE4DBB2A2DCF9000CF698A /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		A8CE4DC02A2DD1AB00CF698A /* CalendarTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTabView.swift; sourceTree = "<group>"; };
+		A8CE4DC22A2DD1D500CF698A /* TimetableCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableCard.swift; sourceTree = "<group>"; };
+		A8CE4DC42A2DD1ED00CF698A /* TimetableCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableCardView.swift; sourceTree = "<group>"; };
+		A8CE4DC72A2DD76100CF698A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A8CE4DC92A2DD79400CF698A /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		A8CE4DCB2A2DD80300CF698A /* Date.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.ext.swift; sourceTree = "<group>"; };
+		A8CE4DCE2A2DD85E00CF698A /* Color.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.ext.swift; sourceTree = "<group>"; };
+		A8CE4DD02A2DDFE900CF698A /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +110,15 @@
 		A8700DF12A1DDAD500D60253 /* smartClass */ = {
 			isa = PBXGroup;
 			children = (
-				A8700E092A1DDC9D00D60253 /* Extension */,
+				A8CE4DA32A2B7EA700CF698A /* Resources */,
 				A8700E062A1DDC4900D60253 /* Modifiers */,
-				A8700E032A1DDBFC00D60253 /* Info.plist */,
+				A8700E092A1DDC9D00D60253 /* Extension */,
 				A8700E002A1DDB6B00D60253 /* Fonts */,
+				A8CE4D712A2B71E900CF698A /* ViewModel */,
+				A8CE4D702A2B71E500CF698A /* View */,
+				A8CE4D6F2A2B71D500CF698A /* Model */,
+				A8700E032A1DDBFC00D60253 /* Info.plist */,
 				A8700DF22A1DDAD500D60253 /* smartClassApp.swift */,
-				A8700DF42A1DDAD500D60253 /* ContentView.swift */,
 				A8700DF62A1DDAD600D60253 /* Assets.xcassets */,
 				A8700DF82A1DDAD600D60253 /* Preview Content */,
 			);
@@ -101,8 +154,158 @@
 			isa = PBXGroup;
 			children = (
 				A8700E0A2A1DDCAD00D60253 /* View.ext.swift */,
+				A8CE4DCB2A2DD80300CF698A /* Date.ext.swift */,
+				A8CE4DCE2A2DD85E00CF698A /* Color.ext.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		A8CE4D6F2A2B71D500CF698A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4DB92A2DCF8000CF698A /* Messages */,
+				A8CE4DA02A2B7E4200CF698A /* TabBar */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8CE4D702A2B71E500CF698A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4DAF2A2CCDE700CF698A /* Parts */,
+				A8CE4D732A2B721300CF698A /* Login */,
+				A8CE4D722A2B720F00CF698A /* App */,
+				A8700DF42A1DDAD500D60253 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8CE4D712A2B71E900CF698A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4DC92A2DD79400CF698A /* CalendarViewModel.swift */,
+				A8CE4DD02A2DDFE900CF698A /* AppViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8CE4D722A2B720F00CF698A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4D9D2A2B78B600CF698A /* Student */,
+				A8CE4D9C2A2B78AD00CF698A /* Admin */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A8CE4D732A2B721300CF698A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4D972A2B773600CF698A /* Parts */,
+				A8CE4D912A2B76B600CF698A /* GreetingView.swift */,
+				A8CE4D932A2B76DA00CF698A /* GreetingTwoView.swift */,
+				A8CE4D952A2B76FB00CF698A /* LoginView.swift */,
+				A8CE4D9A2A2B77BB00CF698A /* RegistrationView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A8CE4D972A2B773600CF698A /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4D982A2B773F00CF698A /* TextFieldView.swift */,
+			);
+			path = Parts;
+			sourceTree = "<group>";
+		};
+		A8CE4D9C2A2B78AD00CF698A /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		A8CE4D9D2A2B78B600CF698A /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4DBD2A2DD18200CF698A /* Calendar */,
+				A8CE4DB42A2DCEF000CF698A /* Messages */,
+				A8CE4DA82A2CCC5B00CF698A /* Profile */,
+				A8CE4D9E2A2B78D000CF698A /* StudentAppView.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		A8CE4DA02A2B7E4200CF698A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4DA12A2B7E5B00CF698A /* TabBarModel.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A8CE4DA32A2B7EA700CF698A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4DA42A2B7EB800CF698A /* Icons.swift */,
+				A8CE4DA62A2B7FDA00CF698A /* Colors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A8CE4DA82A2CCC5B00CF698A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4DA92A2CCC7100CF698A /* ProfileView.swift */,
+				A8CE4DAB2A2CCD1100CF698A /* SettingView.swift */,
+				A8CE4DAD2A2CCD9E00CF698A /* SettingTextFieldView.swift */,
+				A8CE4DB22A2CCE3700CF698A /* LessonView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A8CE4DAF2A2CCDE700CF698A /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4DB02A2CCDF600CF698A /* ButtonView.swift */,
+			);
+			path = Parts;
+			sourceTree = "<group>";
+		};
+		A8CE4DB42A2DCEF000CF698A /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4DB52A2DCF3A00CF698A /* MessagesView.swift */,
+				A8CE4DB72A2DCF5700CF698A /* MessageItemView.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		A8CE4DB92A2DCF8000CF698A /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4DBB2A2DCF9000CF698A /* MessageModel.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		A8CE4DBD2A2DD18200CF698A /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4DC62A2DD73D00CF698A /* Calendar View */,
+				A8CE4DC02A2DD1AB00CF698A /* CalendarTabView.swift */,
+				A8CE4DC22A2DD1D500CF698A /* TimetableCard.swift */,
+				A8CE4DC42A2DD1ED00CF698A /* TimetableCardView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		A8CE4DC62A2DD73D00CF698A /* Calendar View */ = {
+			isa = PBXGroup;
+			children = (
+				A8CE4DC72A2DD76100CF698A /* CalendarView.swift */,
+			);
+			path = "Calendar View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,11 +379,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8CE4DB62A2DCF3A00CF698A /* MessagesView.swift in Sources */,
+				A8CE4DA52A2B7EB800CF698A /* Icons.swift in Sources */,
+				A8CE4DC12A2DD1AB00CF698A /* CalendarTabView.swift in Sources */,
 				A8700DF52A1DDAD500D60253 /* ContentView.swift in Sources */,
+				A8CE4DB32A2CCE3700CF698A /* LessonView.swift in Sources */,
+				A8CE4DCF2A2DD85E00CF698A /* Color.ext.swift in Sources */,
+				A8CE4DB82A2DCF5700CF698A /* MessageItemView.swift in Sources */,
+				A8CE4DC82A2DD76100CF698A /* CalendarView.swift in Sources */,
+				A8CE4D922A2B76B600CF698A /* GreetingView.swift in Sources */,
+				A8CE4DA72A2B7FDA00CF698A /* Colors.swift in Sources */,
 				A8700E082A1DDC6100D60253 /* CustomFont.swift in Sources */,
+				A8CE4DAC2A2CCD1100CF698A /* SettingView.swift in Sources */,
 				A8700E052A1DDC2A00D60253 /* FontManager.swift in Sources */,
 				A8700DF32A1DDAD500D60253 /* smartClassApp.swift in Sources */,
+				A8CE4DC52A2DD1ED00CF698A /* TimetableCardView.swift in Sources */,
+				A8CE4DB12A2CCDF600CF698A /* ButtonView.swift in Sources */,
+				A8CE4DAA2A2CCC7100CF698A /* ProfileView.swift in Sources */,
+				A8CE4D9F2A2B78D000CF698A /* StudentAppView.swift in Sources */,
 				A8700E0B2A1DDCAD00D60253 /* View.ext.swift in Sources */,
+				A8CE4DCC2A2DD80400CF698A /* Date.ext.swift in Sources */,
+				A8CE4DD12A2DDFE900CF698A /* AppViewModel.swift in Sources */,
+				A8CE4D962A2B76FB00CF698A /* LoginView.swift in Sources */,
+				A8CE4D942A2B76DA00CF698A /* GreetingTwoView.swift in Sources */,
+				A8CE4DA22A2B7E5B00CF698A /* TabBarModel.swift in Sources */,
+				A8CE4D992A2B773F00CF698A /* TextFieldView.swift in Sources */,
+				A8CE4DBC2A2DCF9000CF698A /* MessageModel.swift in Sources */,
+				A8CE4D9B2A2B77BB00CF698A /* RegistrationView.swift in Sources */,
+				A8CE4DCA2A2DD79400CF698A /* CalendarViewModel.swift in Sources */,
+				A8CE4DAE2A2CCD9E00CF698A /* SettingTextFieldView.swift in Sources */,
+				A8CE4DC32A2DD1D500CF698A /* TimetableCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
