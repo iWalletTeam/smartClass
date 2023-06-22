@@ -53,7 +53,7 @@ struct AdminView: View {
                                 .font(.title3)
                                 .foregroundColor(.black)
                                 .padding(20)
-                                .background(Color(hex: "#D9D9D8"))
+                                .background(Color(hex: "#F4F4F4"))
                                 .clipShape(Circle())
                         }
                         Text("Добавить группу")
@@ -80,10 +80,13 @@ struct GroupView: View {
                     .foregroundColor(.black)
 
                 HStack {
+                    Image(systemName: "person.3.fill")
                     Text("Групп: \(group.numberOfGroups)")
                         .font(.system(size: 19.36))
                         .foregroundColor(.black)
-                        .padding(.trailing, 30)
+                        .padding(.trailing, 0)
+                    Spacer()
+                    Image(systemName: "person.fill")
                     Text("Студентов: \(group.numberOfStudents)")
                         .font(.system(size: 19.36))
                         .foregroundColor(.black)
@@ -98,11 +101,11 @@ struct GroupView: View {
         }
         .padding([.top, .horizontal], 20)
         .frame(height: 143)
-        .background(Color(hex: "#D9D9D8"))
+        .background(Color(hex: "#F4F4F4"))
         .cornerRadius(20)
         .padding(.bottom, 26)
-        .padding(.leading, 34)
-        .padding(.trailing, 29)
+        .padding(.leading, 22)
+        .padding(.trailing, 20)
     }
 }
 
