@@ -6,9 +6,26 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct RegistrationView: View {
+    
+    @State private var emailNewUser: String = ""
+    @State private var passwordNewUser: String = ""
+    @State private var passwordTwoNewUser: String = ""
+    
+    @State private var surnameState: String = ""
+    @State private var firstNameState: String = ""
+    @State private var fatherNameState: String = ""
+    @State private var birthDate = Date.now
+    
+    @State private var universityState: String = ""
+    @State private var specialtyState: String = ""
+    @State private var groupState: String = ""
+    @State private var courseState: String = ""
+
     @Environment(\.dismiss) var dismiss
+    @EnvironmentObject var viewModel: FirebaseManager
     
     var body: some View {
         ScrollView{
@@ -31,16 +48,17 @@ struct RegistrationView: View {
                 .padding(.horizontal, 20)
                 Spacer()
             }
-            EmailView()
+            EmailView(emailNewUser: $emailNewUser, passwordNewUser: $passwordNewUser, passwordTwoNewUser: $passwordTwoNewUser)
                 .padding(.top,25)
                 .padding(.bottom,25)
-            PersonalityView()
+            PersonalityView(surnameState: $surnameState, firstNameState: $firstNameState, fatherNameState: $fatherNameState, birthDate: $birthDate)
                 .padding(.bottom,25)
-            UniversityView()
-            // .padding(.bottom,25)
+            UniversityView(universityState: $universityState, specialtyState: $specialtyState, groupState: $groupState, courseState: $courseState)
             
             Button {
-                //
+                Task {
+                    try await viewModel.createUser(withEmail: emailNewUser, password: passwordNewUser, surname: surnameState, firstName: firstNameState, fatherName: firstNameState, birthDate: birthDate, university: universityState, specialtyState: specialtyState, group: groupState, courseState: courseState)
+                }
             } label: {
                 Text("Далее")
                     .foregroundColor(.white)
@@ -64,9 +82,9 @@ struct RegistrationView_Previews: PreviewProvider {
 }
 
 struct EmailView: View {
-    @State private var emailState: String = ""
-    @State private var passwordState: String = ""
-    @State private var passwordTwoState: String = ""
+    @Binding var emailNewUser: String
+    @Binding var passwordNewUser: String
+    @Binding var passwordTwoNewUser: String
     
     var body: some View {
         VStack(spacing: 10){
@@ -77,9 +95,9 @@ struct EmailView: View {
                 Spacer()
             }
             VStack(spacing: 15){
-                TextFieldView(customStateProperty: $emailState, customText: "Email")
-                TextFieldView(customStateProperty: $passwordState, customText: "Пароль")
-                TextFieldView(customStateProperty: $passwordTwoState, customText: "Повторить пароль")
+                TextFieldView(customStateProperty: $emailNewUser, customText: "Email")
+                TextFieldView(customStateProperty: $passwordNewUser, customText: "Пароль", isSecure: true)
+                TextFieldView(customStateProperty: $passwordTwoNewUser, customText: "Повторить пароль", isSecure: true)
             }
             .padding(20)
             .background(.white)
@@ -91,10 +109,10 @@ struct EmailView: View {
 
 
 struct PersonalityView: View {
-    @State private var surnameState: String = ""
-    @State private var firstNameState: String = ""
-    @State private var fatherNameState: String = ""
-    @State private var birthDate = Date.now
+    @Binding var surnameState: String
+    @Binding var firstNameState: String
+    @Binding var fatherNameState: String
+    @Binding var birthDate: Date
     
     
     var body: some View {
@@ -126,10 +144,10 @@ struct PersonalityView: View {
 
 
 struct UniversityView: View {
-    @State private var universityState: String = ""
-    @State private var specialtyState: String = ""
-    @State private var groupState: String = ""
-    @State private var courseState: String = ""
+    @Binding var universityState: String
+    @Binding var specialtyState: String
+    @Binding var groupState: String
+    @Binding var courseState: String
     
     var body: some View {
         VStack {
@@ -164,7 +182,7 @@ struct UniversityView: View {
                         .padding(.horizontal,19)
                         
                         TextFieldView(customStateProperty: $groupState, customText: "")
-                            //.frame(width: 188)
+                            .frame(width: 188)
                         
                     }
                     VStack(alignment: .leading){

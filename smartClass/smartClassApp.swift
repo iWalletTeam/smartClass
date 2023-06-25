@@ -19,19 +19,21 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 @main
 struct smartClassApp: App {
-    
-    @ObservedObject var appViewModel = AppViewModel()
+    @StateObject var viewModel = FirebaseManager()
+  //  @ObservedObject var appViewModel = AppViewModel()
+   
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     var body: some Scene {
         WindowGroup {
-            if appViewModel.isLogin{
-                StudentAppView()
-            } else {
-                GreetingView()
-                    .environmentObject(appViewModel)
-            }
-            
+//            if appViewModel.isLogin{
+//                StudentAppView()
+//            } else {
+                ContentView()
+                //GreetingView()
+                    //.environmentObject(appViewModel)
+                    .environmentObject(viewModel)
+            //}
         }
     }
 }

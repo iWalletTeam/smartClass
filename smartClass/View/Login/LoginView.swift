@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LoginView: View {
     @Environment(\.dismiss) var dismiss
+
     var body: some View {
         ZStack(alignment: .bottom){
             VStack{
@@ -33,13 +34,12 @@ struct LoginView: View {
                             .customFont(font: FontManager.Nunito.bold, size: 30)
                         Spacer()
                     }
-                    .padding(.horizontal, 40)
+                    .padding(.horizontal, 20)
                     Spacer()
                 }
                 
                 VStack{
                     EmailPasswordView()
-                    
                 }
                 .padding(.bottom, 40)
                 .background(.white)
@@ -48,7 +48,7 @@ struct LoginView: View {
             }
            
         }
-        .padding(.top, 30)
+        .padding(.top, 50)
         .navigationBarBackButtonHidden(true)
         .ignoresSafeArea()
     }
@@ -63,13 +63,15 @@ struct LoginView_Previews: PreviewProvider {
 struct EmailPasswordView: View {
     @State private var emailState: String = ""
     @State private var passwordState: String = ""
-    @EnvironmentObject var appViewModel: AppViewModel
+    //@EnvironmentObject var appViewModel: AppViewModel
+    @EnvironmentObject var viewModel: FirebaseManager
     
     var body: some View {
         VStack{
             HStack{
                 Text("Авторизация")
-                    .font(.custom("Nunito-Bold", size: 20))
+                    .customFont(font: FontManager.Nunito.bold, size: 20)
+
                 Spacer()
             }
             .padding(.horizontal,39)
@@ -78,11 +80,14 @@ struct EmailPasswordView: View {
             VStack(spacing: 20){
                 TextFieldView(customStateProperty: $emailState, customText: "Email")
                 
-                TextFieldView(customStateProperty: $passwordState, customText: "Пароль")
+                TextFieldView(customStateProperty: $passwordState, customText: "Пароль", isSecure: true)
                 
                 
                 Button {
-                    appViewModel.isLogin.toggle()
+                   // appViewModel.isLogin.toggle()
+                    Task {
+                        try await viewModel.singIn(withEmail: emailState, password: passwordState)
+                    }
                 } label: {
                     ButtonView(btnText: "Войти")
                 }

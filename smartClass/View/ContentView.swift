@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var viewModel: FirebaseManager
     var body: some View {
-       StudentAppView()
+        Group {
+            if viewModel.userSession != nil {
+                StudentAppView()
+            } else {
+                GreetingView()
+            }
+        }
     }
 }
 

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct SettingView: View {
+    @EnvironmentObject var viewModel: FirebaseManager
+    
     var body: some View {
         ZStack{
             ScrollView{
@@ -22,7 +24,7 @@ struct SettingView: View {
                         }
 
                         Button {
-                            //some code
+                            viewModel.singOut()
                         } label: {
                             Text("Выйти")
                                 .foregroundColor(.red)
